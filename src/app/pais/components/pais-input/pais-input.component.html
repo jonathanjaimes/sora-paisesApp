@@ -1,0 +1,9 @@
+<form autocomplete="off" (ngSubmit)="buscar()">
+
+    <!-- el (gnSubmit)= "buscar()" permite ejecutar la función buscar cuando la persona envíe el formulario -->
+        <input type="text"
+                name="termino"
+                class="form-control"
+                placeholder="Buscar país..."
+                [(ngModel)] = "termino">
+    </form>
